@@ -1,0 +1,41 @@
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#cardToFind {
+    width : 200px;
+    margin: auto;
+}
+
+.card {
+    text-align: center;
+    background-color: silver;
+    border: solid;
+    border-radius: 5%;
+    width : 200px;
+    height: 300px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+#cardFound {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#marge {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
